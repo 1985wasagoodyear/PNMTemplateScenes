@@ -9,14 +9,15 @@
 /* Begin PBXBuildFile section */
 		3FC261E622E23B5000BD59CE /* PNMTemplateScenes.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FC261E422E23B5000BD59CE /* PNMTemplateScenes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3FC261F322E23B9A00BD59CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC261F222E23B9A00BD59CE /* AppDelegate.swift */; };
-		3FC261F522E23B9A00BD59CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC261F422E23B9A00BD59CE /* ViewController.swift */; };
 		3FC261F822E23B9A00BD59CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC261F622E23B9A00BD59CE /* Main.storyboard */; };
 		3FC261FA22E23B9B00BD59CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC261F922E23B9B00BD59CE /* Assets.xcassets */; };
 		3FC261FD22E23B9B00BD59CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC261FB22E23B9B00BD59CE /* LaunchScreen.storyboard */; };
 		3FC2620622E23BF700BD59CE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC2620422E23BF700BD59CE /* LoginViewController.swift */; };
-		3FC2620722E23BF700BD59CE /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FC2620522E23BF700BD59CE /* LoginViewController.xib */; };
 		3FC2620A22E23C3900BD59CE /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC2620822E23C3900BD59CE /* SignupViewController.swift */; };
-		3FC2620B22E23C3900BD59CE /* SignupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FC2620922E23C3900BD59CE /* SignupViewController.xib */; };
+		3FC2621222E2457300BD59CE /* Notifications+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC2621122E2457300BD59CE /* Notifications+Utility.swift */; };
+		3FC2621722E2465000BD59CE /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC2621622E2465000BD59CE /* Validator.swift */; };
+		3FC2621C22E249D800BD59CE /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FC2621A22E249D800BD59CE /* LoginViewController.xib */; };
+		3FC2621D22E249D800BD59CE /* SignupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FC2621B22E249D800BD59CE /* SignupViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,15 +26,16 @@
 		3FC261E522E23B5000BD59CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FC261F022E23B9A00BD59CE /* PNMTemplateScenesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PNMTemplateScenesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC261F222E23B9A00BD59CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3FC261F422E23B9A00BD59CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3FC261F722E23B9A00BD59CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FC261F922E23B9B00BD59CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FC261FC22E23B9B00BD59CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FC261FE22E23B9B00BD59CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FC2620422E23BF700BD59CE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		3FC2620522E23BF700BD59CE /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		3FC2620822E23C3900BD59CE /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
-		3FC2620922E23C3900BD59CE /* SignupViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignupViewController.xib; sourceTree = "<group>"; };
+		3FC2621122E2457300BD59CE /* Notifications+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notifications+Utility.swift"; sourceTree = "<group>"; };
+		3FC2621622E2465000BD59CE /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		3FC2621A22E249D800BD59CE /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		3FC2621B22E249D800BD59CE /* SignupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignupViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				3FC261E422E23B5000BD59CE /* PNMTemplateScenes.h */,
+				3FC2620F22E2455D00BD59CE /* Utility */,
 				3FC2620222E23BB500BD59CE /* SignIn */,
 				3FC261E522E23B5000BD59CE /* Info.plist */,
 			);
@@ -86,7 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				3FC261F222E23B9A00BD59CE /* AppDelegate.swift */,
-				3FC261F422E23B9A00BD59CE /* ViewController.swift */,
 				3FC261F622E23B9A00BD59CE /* Main.storyboard */,
 				3FC261F922E23B9B00BD59CE /* Assets.xcassets */,
 				3FC261FB22E23B9B00BD59CE /* LaunchScreen.storyboard */,
@@ -98,12 +100,21 @@
 		3FC2620222E23BB500BD59CE /* SignIn */ = {
 			isa = PBXGroup;
 			children = (
+				3FC2621622E2465000BD59CE /* Validator.swift */,
 				3FC2620822E23C3900BD59CE /* SignupViewController.swift */,
-				3FC2620922E23C3900BD59CE /* SignupViewController.xib */,
+				3FC2621B22E249D800BD59CE /* SignupViewController.xib */,
 				3FC2620422E23BF700BD59CE /* LoginViewController.swift */,
-				3FC2620522E23BF700BD59CE /* LoginViewController.xib */,
+				3FC2621A22E249D800BD59CE /* LoginViewController.xib */,
 			);
 			path = SignIn;
+			sourceTree = "<group>";
+		};
+		3FC2620F22E2455D00BD59CE /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				3FC2621122E2457300BD59CE /* Notifications+Utility.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,8 +209,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FC2620B22E23C3900BD59CE /* SignupViewController.xib in Resources */,
-				3FC2620722E23BF700BD59CE /* LoginViewController.xib in Resources */,
+				3FC2621D22E249D800BD59CE /* SignupViewController.xib in Resources */,
+				3FC2621C22E249D800BD59CE /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +231,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FC2621722E2465000BD59CE /* Validator.swift in Sources */,
+				3FC2621222E2457300BD59CE /* Notifications+Utility.swift in Sources */,
 				3FC2620A22E23C3900BD59CE /* SignupViewController.swift in Sources */,
 				3FC2620622E23BF700BD59CE /* LoginViewController.swift in Sources */,
 			);
@@ -229,7 +242,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FC261F522E23B9A00BD59CE /* ViewController.swift in Sources */,
 				3FC261F322E23B9A00BD59CE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -12,10 +12,14 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SignupViewController" customModule="PNMTemplateScenes" customModuleProvider="target">
             <connections>
+                <outlet property="confirmPasswordTextField" destination="qQC-Ei-J7S" id="xqu-Ey-jV3"/>
+                <outlet property="constraintContentHeight" destination="MMN-CA-NQQ" id="hfW-Nz-pq5"/>
+                <outlet property="createAccountButton" destination="LLN-gp-p8T" id="fMM-Ug-bjS"/>
                 <outlet property="emailTextField" destination="ldb-70-E8R" id="2im-Dh-Gwf"/>
                 <outlet property="firstNameTextField" destination="sii-IH-yBW" id="mhA-1m-GGF"/>
                 <outlet property="lastNameTextField" destination="WDF-TS-Ojt" id="jns-d7-1g5"/>
                 <outlet property="passwordTextField" destination="jII-wm-cfU" id="Lv3-fR-wKj"/>
+                <outlet property="scrollView" destination="R50-cR-eb8" id="Mfm-bs-unz"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -28,7 +32,7 @@
                     <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="57H-pO-op3">
-                            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
                             <subviews>
                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" spacing="48" translatesAutoresizingMaskIntoConstraints="NO" id="R87-dB-HgN">
                                     <rect key="frame" x="48" y="0.0" width="318" height="415.5"/>
@@ -103,8 +107,8 @@
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="R50-cR-eb8" secondAttribute="trailing" id="EIZ-1M-Z9v"/>
                 <constraint firstItem="R50-cR-eb8" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="GQj-JA-iHW"/>
                 <constraint firstItem="R50-cR-eb8" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="aE5-Ki-20b"/>
-                <constraint firstItem="57H-pO-op3" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" id="f6Z-wh-dhB"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="top" secondItem="R50-cR-eb8" secondAttribute="top" id="fIg-or-gQc"/>
+                <constraint firstItem="57H-pO-op3" firstAttribute="height" secondItem="fnl-2z-Ty3" secondAttribute="height" id="wKQ-qG-Hgb"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
         </view>
