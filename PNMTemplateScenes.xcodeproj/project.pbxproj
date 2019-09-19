@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F00BEB5233402BE004CE678 /* PNMTemplateScenes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC261E122E23B5000BD59CE /* PNMTemplateScenes.framework */; };
+		3F00BEB6233402BE004CE678 /* PNMTemplateScenes.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC261E122E23B5000BD59CE /* PNMTemplateScenes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3FC261E622E23B5000BD59CE /* PNMTemplateScenes.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FC261E422E23B5000BD59CE /* PNMTemplateScenes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3FC261F322E23B9A00BD59CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC261F222E23B9A00BD59CE /* AppDelegate.swift */; };
 		3FC261F822E23B9A00BD59CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC261F622E23B9A00BD59CE /* Main.storyboard */; };
@@ -19,6 +21,30 @@
 		3FC2621C22E249D800BD59CE /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FC2621A22E249D800BD59CE /* LoginViewController.xib */; };
 		3FC2621D22E249D800BD59CE /* SignupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FC2621B22E249D800BD59CE /* SignupViewController.xib */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F00BEB7233402BE004CE678 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FC261D822E23B5000BD59CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FC261E022E23B5000BD59CE;
+			remoteInfo = PNMTemplateScenes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3F00BEB9233402BE004CE678 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3F00BEB6233402BE004CE678 /* PNMTemplateScenes.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3FC261E122E23B5000BD59CE /* PNMTemplateScenes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PNMTemplateScenes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F00BEB5233402BE004CE678 /* PNMTemplateScenes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,10 +183,12 @@
 				3FC261EC22E23B9A00BD59CE /* Sources */,
 				3FC261ED22E23B9A00BD59CE /* Frameworks */,
 				3FC261EE22E23B9A00BD59CE /* Resources */,
+				3F00BEB9233402BE004CE678 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3F00BEB8233402BE004CE678 /* PBXTargetDependency */,
 			);
 			name = PNMTemplateScenesDemo;
 			productName = PNMTemplateScenesDemo;
@@ -247,6 +276,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F00BEB8233402BE004CE678 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FC261E022E23B5000BD59CE /* PNMTemplateScenes */;
+			targetProxy = 3F00BEB7233402BE004CE678 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3FC261F622E23B9A00BD59CE /* Main.storyboard */ = {
@@ -444,6 +481,7 @@
 		3FC2620022E23B9B00BD59CE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PNMTemplateScenesDemo/Info.plist;
@@ -461,6 +499,7 @@
 		3FC2620122E23B9B00BD59CE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PNMTemplateScenesDemo/Info.plist;

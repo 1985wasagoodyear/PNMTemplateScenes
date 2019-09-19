@@ -36,7 +36,7 @@ public final class SignupViewController: UIViewController {
     
     // MARK: - Lifecycle Methods
     
-    init() {
+    public init() {
         super.init(nibName: "SignupViewController",
                    bundle: Bundle(for: SignupViewController.self))
     }
