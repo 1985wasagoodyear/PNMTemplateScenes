@@ -22,28 +22,32 @@ extension UITextField {
 
 extension NotificationCenter {
     
+    private static let `def` = NotificationCenter.default
+    
     static func registerKeyboardHandler(_ target: Any,
                                         willShow: Selector,
                                         willHide: Selector,
                                         object: Any? = nil) {
-        NotificationCenter.default.addObserver(target,
-                                               selector: willShow,
-                                               name:UIResponder.keyboardWillShowNotification,
-                                               object: object)
-        NotificationCenter.default.addObserver(target,
-                                               selector: willHide,
-                                               name:UIResponder.keyboardWillHideNotification,
-                                               object: object)
+        def.addObserver(target,
+                        selector: willShow,
+                        name:UIResponder.keyboardWillShowNotification,
+                        object: object)
+        def.addObserver(target,
+                        selector: willHide,
+                        name:UIResponder.keyboardWillHideNotification,
+                        object: object)
     }
     
     static func unregisterKeyboardHandler(_ target: Any,
                                           object: Any? = nil) {
-        NotificationCenter.default.removeObserver(target,
-                                                  name: UIResponder.keyboardWillShowNotification,
-                                                  object: object)
-        NotificationCenter.default.removeObserver(target,
-                                                  name: UIResponder.keyboardWillHideNotification,
-                                                  object: object)
+        def.removeObserver(target,
+                           name: UIResponder.keyboardWillShowNotification,
+                           object: object)
+        def.removeObserver(target,
+                           name: UIResponder.keyboardWillHideNotification,
+                           object: object)
     }
     
 }
+
+
